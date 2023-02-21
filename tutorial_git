@@ -1,0 +1,18 @@
+git init
+vim .git/config
+git config user.name "Diego Bueso Acevedo"
+git config user.email "diego.bueso@uv.es"
+git add README.md   (para añadir un archivo)
+git add * (para añadir toda la carpeta actual)
+git statuts   (cosas que tenemos dentro del repositorio)
+git commit -m "inicial commit, README added to repossitori"
+git remote add origin https://github.com/DiegoBueso/XKGC (connect with github)
+git remote -v
+git push origin master (push es subir los datos)
+git pull origin master (pull es descargar los datos)
+git log (lista de commints/cambios realizados)
+git clone https://github.com/DiegoBueso/XKGC (copia repositorios)
+vim .gitignore (crear un testo con los nombres de los archivos a ignorar en los add/push etc...)
+
+
+
